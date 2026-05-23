@@ -1,5 +1,5 @@
 print("Welcome to the Band Name Generator.\n")
 Name_of_the_city=input("What's the name of the city you grew up in?\n")
 Name_of_the_pet=input("Waht's Your Pet's name?\n")
-# print("Your band name could be",Name_of_the_city,Name_of_the_pet)
-print("Your band name could be",Name_of_the_city +""+ Name_of_the_pet) 
+# print("Your band name could be",Name_of_the_city,Name_of_the_pet)          //this is without the concatenation 
+print("Your band name could be",Name_of_the_city +""+ Name_of_the_pet)       #this is with concatination 
